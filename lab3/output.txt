@@ -1,0 +1,7 @@
+> New database: max shapes is 3
+> Created c1: circle 100 200 10 10
+> Created c2: circle 300 400 20 20
+> Deleted shape c1
+> Deleted: all shapes
+> Drew all shapes
+> 
