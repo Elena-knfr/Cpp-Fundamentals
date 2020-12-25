@@ -14,4 +14,4 @@ In this lab, we used C++ I/O streams including error handling to create a robust
 In this lab, we were asked to create and manipulate linkedlists.  In the process,  the assignment re-enforces earlier concepts of writing classes with constructors and the destructor. It also serves as an exercise on dynamic allocation and de-allocation of data without memory leaks. 
 
 # Lab 5: Inheritance and Virtual Functions
-Last lab focused on inheritance and required us to write classes inheriting from a simple graphics framework (easyGL). We created a breadboard that allowed users to click, drag, and modify shapes on a screen.
+Last lab focused on inheritance and required us to write classes inheriting from a base class, called Shape. We then needed to register the command parser call-back functions with the existing shape database and invoke the command parser method of database.
