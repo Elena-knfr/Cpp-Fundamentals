@@ -7,8 +7,8 @@ The first lab helped us to learn some Unix commands and required us to fix run-t
 # Lab 2: A Tic-Tac-Toe Game
 This lab required us to use classes, objects, and methods by building a Tic-Tac-Toe game.
 
-# Lab 3: Classes
-In Lab 3 we created a "back-end" for the resistive circuit simulator started in lab 2. We Used classes and dynamically allocated arrays to represent resistors and nodes in the circuit.
+# Lab 3: A Command Line Parser
+In this lab, we used C++ I/O streams including error handling to create a robust parser to interpret user input.
 
 # Lab 4: Linked Lists
 Lab 4 required us to port the array based back-end to a linked list backed one. We then had to solve for the voltages at every node in the circuit. This was the last of the resisitive circuit labs.
