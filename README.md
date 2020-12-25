@@ -4,8 +4,8 @@ A second-year Electrical and Computer Engineering course covering the fundamenta
 Lab 1
 The first lab helped us to learn some Unix commands and required us to fix run-time bugs of given codes.
 
-Lab 2: Command Interpreter
-This was the first lab in the resitive circuit series. We used i/o streams to create a robust parser to interpret user input. This subsequently became the UI for future labs.
+Lab 2: A Tic-Tac-Toe Game
+This lab required us to use classes, objects, and methods by building a Tic-Tac-Toe game.
 
 Lab 3: Classes
 In Lab 3 we created a "back-end" for the resistive circuit simulator started in lab 2. We Used classes and dynamically allocated arrays to represent resistors and nodes in the circuit.
