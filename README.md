@@ -11,7 +11,7 @@ This lab required us to use classes, objects, and methods by building a Tic-Tac-
 In this lab, we used C++ I/O streams including error handling to create a robust parser to interpret user input.
 
 # Lab 4: Linked Lists
-Lab 4 required us to port the array based back-end to a linked list backed one. We then had to solve for the voltages at every node in the circuit. This was the last of the resisitive circuit labs.
+In this lab, we were asked to create and manipulate linkedlists.  In the process,  the assignment re-enforces earlier concepts of writing classes with constructors and the destructor. It also serves as an exercise on dynamic allocation and de-allocation of data without memory leaks. 
 
 # Lab 5: Inheritance/Graphics
 Finally lab 6 focused on inheritance and required us to write classes inheriting from a simple graphics framework (easyGL). We created a breadboard that allowed users to click, drag, and modify shapes on a screen.
