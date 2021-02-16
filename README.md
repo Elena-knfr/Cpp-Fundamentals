@@ -1,11 +1,6 @@
 # ECE244
 A second-year Electrical and Computer Engineering course covering the fundamentals of object oriented programming in C++
 
-//# Lab 1
-//The first lab helped us to learn some Unix commands and required us to fix run-time bugs of given codes.
-
-//# Lab 2: A Tic-Tac-Toe Game
-//This lab required us to use classes, objects, and methods by building a Tic-Tac-Toe game.
 
 # Lab 3: A Command Line Parser
 In this lab, we used C++ I/O streams including error handling to create a robust parser to interpret user input.
