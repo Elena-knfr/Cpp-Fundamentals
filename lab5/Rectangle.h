@@ -6,8 +6,8 @@
 using namespace std;
 
 #include "Shape.h"
+
 // This class implements the rectangle Shape objects.
-// ECE244 Student: Write the definition of the class here.
 
 class Rectangle : Shape {
 private:
