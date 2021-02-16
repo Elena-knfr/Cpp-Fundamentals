@@ -49,8 +49,8 @@ void GroupList::insert(GroupNode* s) {
 }
 
 // removes the group with the name "name" from the list
-// and returns a pointer to the removed GroupNode ???????
-// returns nullptr is name is not found on list ???????
+// and returns a pointer to the removed GroupNode 
+// returns nullptr is name is not found on list 
 
 GroupNode* GroupList::remove(string name) {
     if (head == NULL) return NULL;
