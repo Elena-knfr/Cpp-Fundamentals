@@ -25,7 +25,6 @@ using namespace std;
 // Create a database instance; making it global to simplify student code
 ShapesDB sdb(MAX_SHAPES,MAX_SHAPE_TYPES);
 
-// ECE244 Student: add your parser function prototypes here
 Shape* parseCircleCommand(stringstream& line);
 Shape* parseRectangleCommand(stringstream& line);
 Shape* parseTriangleCommand(stringstream& line);
@@ -41,18 +40,12 @@ int main () {
     // No new commands should be registered after this
     sdb.parseCommands();
     
-    //for (Shape* iter = sdb.begin(); iter != sdb.end(); iter = sdb.next()) {
-          //if (iter != nullptr) cout << iter->getName() << endl;
-    //} 
-    // Done
     return (0);
 }
 
 Shape* parseCircleCommand(stringstream& line) {
     string name;
-    float xcent;
-    float ycent;
-    float radius;
+    float xcent, ycent, radius;
     line >> name >> xcent >> ycent >> radius;
     
     // Do a simple error check
@@ -81,10 +74,7 @@ Shape* parseCircleCommand(stringstream& line) {
 
 Shape* parseRectangleCommand(stringstream& line) {
     string name;
-    float xcent;
-    float ycent;
-    float width;
-    float height;
+    float xcent, ycent, width, height;
     line >> name >> xcent >> ycent >> width >> height;
     
     // Do a simple error check
@@ -113,12 +103,7 @@ Shape* parseRectangleCommand(stringstream& line) {
 
 Shape* parseTriangleCommand(stringstream& line) {
     string name;
-    float x1;
-    float y1;
-    float x2;
-    float y2;
-    float x3;
-    float y3;
+    float x1, x2, x3, y1, y2, y3;
     line >> name >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
     
     // Do a simple error check
