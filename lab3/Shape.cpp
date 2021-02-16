@@ -2,12 +2,6 @@
 //  Shape.cpp
 //  lab3
 //
-//  Modified by Tarek Abdelrahman on 2020-10-04.
-//  Created by Tarek Abdelrahman on 2018-08-25.
-//  Copyright © 2018-2020 Tarek Abdelrahman.
-
-//  ECE244 Student:
-//  Write the implementation (and only the implementation) of the Shape class below
 
 #include <iostream>
 #include "Shape.h"
